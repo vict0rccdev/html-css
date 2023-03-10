@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: darkorange;
+}
+
+p {
+    text-align: justify;
+}

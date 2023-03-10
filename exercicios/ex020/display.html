@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    div {
+        font-weight: bold;
+        border-color: black;
+        border-style: solid;
+        width: 70px;
+        padding: 3px;
+    }
+  
+    div > p {
+        display: none;    
+    }
+
+    div:active > p {
+        
+        color: rgb(230, 230, 107);
+        display: block;
+    }
+
+    </style>
+
+
+</head>
+<body>
+    <p>Fazendo o teste aparecer ao passar o mouse.</p>
+    <div>
+        Cardápio
+        <p>Frango</p>
+        <p>Ovo</p>
+    </div>
+
+    <p>Fim do teste!</p>
+</body>
+</html>
