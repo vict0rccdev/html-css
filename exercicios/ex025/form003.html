@@ -7,11 +7,27 @@
     <title>Teste de formulário</title>
 </head>
 <body>
-    <form action="" method="get" autocomplete="on">
-        <p></p>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" nome="inome" id="inome" required autocomplete="username" minlength="5" maxlength="25" placeholder="Digite seu nome completo">
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" nome="media" id="imedia" required min="0" max="10" step="0.1" placeholder="Digite sua média">
+        </p>
+        <p>
+            <label for="imes">Período letivo:</label>
+            <input type="month" nome="mes" id="imes" required>
+        </p>
+        <p>
+            <label for="idata">Data da prova:</label>
+            <input type="date" nome="data" id="idata" required>
+        </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar tudo">
         
-        
-        /form>
+    </form>
     
 </body>
 </html>
