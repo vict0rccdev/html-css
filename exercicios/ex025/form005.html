@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+  
+
+            <form action="cadastro.php" method="get" autocomplete="on">
+                <fieldset>
+                    <legend>Informações pessoais</legend>
+                    <p><label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="iname" required placeholder="Digite seu nome" minlength="5" maxlength="30"></p>
+
+                    <p><label for="iage">Idade:</label>
+                        <input type="number" name="age" id="iage" required min="1" placeholder="Digite sua idade" step="1">                                        
+                    </p>
+                    
+                    <input type="radio" name="sexo" id="imas" value="M" ><label for="imas">Homem</label><br>
+                    <input type="radio" name="sexo" id="ifem" value="F" ><label for="ifem">Mulher</label><br>
+                    <input type="radio" name="sexo" id="ioutro" value="O"><label for="ioutro">Outro</label><br>
+
+                    <p><input type="submit" value="Enviar">
+                   <input type="reset" value="Limpar tudo"></p>
+
+                </fieldset>
+            </form>
+
+                <fieldset>
+                    <legend>Seu esporte favorito</legend>
+                    <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label><br>
+                    <input type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label><br>
+                    
+
+                    <p><input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar tudo"></p>
+
+                </fieldset>
+
+
+
+
+
+
+
+
+
+        </form>
+    
+</body>
+</html>
